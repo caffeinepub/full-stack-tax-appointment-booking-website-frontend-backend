@@ -1,0 +1,39 @@
+{
+  "kind": "build_request",
+  "title": "Update Landing Page features intro copy to mention admin approvals",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Update ONLY the Landing Page Features Section intro block (the div at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[1]) and its paragraph (XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[1]/p[1]) to reflect that RideBook supports an admin panel/flow to review and approve (admit) registered users before they can use the app, keeping all user-facing text in English.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Yes 3"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Only the content within the selected Features Section intro container (and its paragraph) is changed; no other page sections/components are modified.",
+        "The updated copy clearly communicates that admins can review/approve registered users (\"admit\" users) before they can use the service.",
+        "All updated user-facing text is in English.",
+        "The app builds and the Landing Page renders without runtime errors."
+      ]
+    }
+  ],
+  "constraints": [
+    "Apply changes ONLY to the two user-selected elements identified by the provided XPaths (the Features Section intro container and its paragraph).",
+    "Do not modify any other UI elements, routes, backend logic, or data models as part of this change."
+  ],
+  "nonGoals": [
+    "Implementing an actual admin panel UI, routes, or backend APIs for approving users.",
+    "Adding new authentication/authorization behavior or role management.",
+    "Changing any other Landing Page sections (Hero, Services, CTA) or other pages."
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

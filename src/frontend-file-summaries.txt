@@ -1,0 +1,18 @@
+{
+  "frontend/src/App.tsx": "Main application component with TanStack Router setup, defining routes for landing, booking, my bookings, and booking details pages, wrapped with ThemeProvider and Toaster for notifications.",
+  "frontend/src/components/auth/LoginButton.tsx": "Login/logout button component using Internet Identity authentication with loading states and query cache clearing on logout.",
+  "frontend/src/components/auth/ProfileSetupDialog.tsx": "Modal dialog that prompts authenticated users without a profile to enter their name and email on first login, with form validation and proper loading state handling.",
+  "frontend/src/components/auth/RequireAuth.tsx": "Authentication guard component that displays a sign-in prompt for unauthenticated users and renders protected content for authenticated users.",
+  "frontend/src/components/layout/Header.tsx": "Site header with RideBook branding, taxi logo, navigation links for booking rides and viewing rides, user profile display, and login button with responsive mobile navigation.",
+  "frontend/src/components/layout/AppLayout.tsx": "Main layout wrapper component providing consistent header, footer with RideBook branding and caffeine.ai attribution, and profile setup dialog across all pages.",
+  "frontend/src/pages/LandingPage.tsx": "Public landing page with hero section showcasing taxi booking services, features section highlighting admin approval process for registered users, services list, and call-to-action sections with taxi-themed imagery.",
+  "frontend/src/pages/BookAppointmentPage.tsx": "Protected page containing the booking form for scheduling taxi rides (car or bike), wrapped with authentication requirement.",
+  "frontend/src/pages/MyBookingsPage.tsx": "Protected page displaying a list of the authenticated user's taxi ride bookings with management capabilities.",
+  "frontend/src/pages/BookingDetailsPage.tsx": "Protected page showing detailed information about a specific taxi booking including ride type, pickup/dropoff locations, pickup date/time, and rider information with cancel functionality.",
+  "frontend/src/features/bookings/components/BookingForm.tsx": "Comprehensive taxi booking form with validation, ride type selection (car/bike), pickup/dropoff location inputs, date/time selection, availability checking, and success confirmation display showing booking details.",
+  "frontend/src/features/bookings/components/BookingList.tsx": "List component displaying user's taxi ride bookings with ride type icons, pickup date/time, pickup/dropoff locations, and navigation to details with empty state handling.",
+  "frontend/src/features/bookings/components/CancelBookingButton.tsx": "Confirmation dialog and button for canceling ride bookings with loading states and success/error toast notifications.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations including user profile management, taxi booking CRUD operations (createTaxiBooking, getUserTaxiBookings, getTaxiBooking, cancelTaxiBooking), and availability checks with proper cache invalidation.",
+  "frontend/src/index.css": "Global styles with OKLCH color system using warm amber/yellow palette (hue 85) for taxi theme in both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom colors, border radius, shadows, and animations matching the teal-based design system."
+}

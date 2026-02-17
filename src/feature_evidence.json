@@ -1,0 +1,24 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-only-the-landing-page-features-section-intro-block-the-div-at-xpath-html-1-body-1-div-1-div-1-main-1-div-1-section-2-div-1-div-1-and-its-paragraph-xpath-html-1-body-1-div-1-div-1-main-1-div-1-section-2-div-1-div-1-p-1-to-reflect-that-ridebook-supports-an-admin-panel-flow-to-review-and-approve-admit-registered-users-before-they-can-use-the-app-keeping-all-user-facing-text-in-english",
+      "featureTitle": "Update ONLY the Landing Page Features Section intro block (the div at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[1]) and its paragraph (XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[1]/p[1]) to reflect that RideBook supports an admin panel/flow to review and approve (admit) registered users before they can use the app, keeping all user-facing text in English.",
+      "files": [
+        "frontend/src/pages/LandingPage.tsx"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update Landing Page Features intro copy to mention admin approvals",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Revise the Landing Page Features section intro text to state that admins review/approve (admit) registered users before they can use RideBook, changing only the specified intro container and its paragraph.",
+      "acceptanceCriteria": [
+        "Only the content within the selected Features Section intro container (and its paragraph) is changed; no other page sections/components are modified.",
+        "The updated copy clearly communicates that admins can review/approve registered users (\"admit\" users) before they can use the service.",
+        "All updated user-facing text is in English.",
+        "The app builds and the Landing Page renders without runtime errors."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/LandingPage.tsx",
+          "operation": "modify",
+          "description": "Update ONLY the Features Section intro block (the <div className=\"text-center mb-12\"> inside the Features Section) and its paragraph (<p className=\"text-lg text-muted-foreground max-w-2xl mx-auto\">) to mention the admin review/approval (admission) flow for registered users; do not change any other JSX, sections (Hero/Services/CTA), components, routes, or logic."
+        }
+      ]
+    }
+  ]
+}

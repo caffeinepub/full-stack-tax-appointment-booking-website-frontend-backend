@@ -1,2 +1,3 @@
-# full-stack-tax-appointment-booking-website-frontend-backend
-Exported from Caffeine project: Update Landing Page features intro copy to mention admin approvals
+## 
+
+To run app build and run docker image: `docker build -t app . docker run -it --network host app`

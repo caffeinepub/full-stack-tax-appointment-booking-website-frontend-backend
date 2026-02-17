@@ -1,0 +1,29 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Taxi booking app with an admin panel to approve/admit registered users (drivers/passengers).",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-update-only-the-landing-page-features-section-intro-block-the-div-at-xpath-html-1-body-1-div-1-div-1-main-1-div-1-section-2-div-1-div-1-and-its-paragraph-xpath-html-1-body-1-div-1-div-1-main-1-div-1-section-2-div-1-div-1-p-1-to-reflect-that-ridebook-supports-an-admin-panel-flow-to-review-and-approve-admit-registered-users-before-they-can-use-the-app-keeping-all-user-facing-text-in-english",
+      "title": "Update ONLY the Landing Page Features Section intro block (the div at XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[1]) and its paragraph (XPath /html[1]/body[1]/div[1]/div[1]/main[1]/div[1]/section[2]/div[1]/div[1]/p[1]) to reflect that RideBook supports an admin panel/flow to review and approve (admit) registered users before they can use the app, keeping all user-facing text in English.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Build an admin panel to review and approve/admit registered users (e.g., drivers and/or passengers) before they can use the taxi booking app.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Update Landing Page features intro copy to mention admin approvals",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
